@@ -4,6 +4,7 @@ import redis
 import json
 import time
 import logging
+redis=redis.Redis(host="",port=)
 appPkgName = ''
 app_id = ''
 secret = ''
