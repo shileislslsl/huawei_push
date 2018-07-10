@@ -5,6 +5,8 @@ import json
 import time
 import logging
 appPkgName = ''
+app_id = ''
+secret = ''
 send_url = 'https://api.push.hicloud.com/pushsend.do'
 send_url += '?nsp_ctx=%7b%22ver%22%3a%221%22%2c+%22appId%22%3a%22{appid}%22%7d'.format(appid=appid)
 
